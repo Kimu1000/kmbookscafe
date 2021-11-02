@@ -1,2 +1,2 @@
 # BankCalulator
-These are the projects on my resume
+This calculator was created using python.
