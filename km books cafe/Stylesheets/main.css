@@ -1,0 +1,148 @@
+body {
+    background-color: #9b3a27;
+}
+
+#footer {
+    border-style: solid;
+    border-width: 2px;
+    background-color: #e4a64f;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 30px;
+    padding-bottom: 10px;
+
+}
+
+#header {
+    border-style: solid;
+    border-width: 2px;
+    background-color: #e4a64f;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    top: 0;
+    height: 110px;
+    font-size: 10px;
+
+}
+
+#location {
+    text-align: center;
+    background-color: aqua;
+
+    text-align: center;
+
+
+    margin-right: auto;
+    margin-left: auto;
+    width: 400px;
+    height: 50px;
+    border-width: 50px;
+    font-style: italic;
+
+    /*text-shadow:
+        -1px -1px 0 white,
+        1px -1px 0 white,
+        -1px 1px 0 white,
+        1px 1px 0 white;
+    font-size: 30px;*/
+}
+
+#sitename {
+    text-align: left;
+    font-style: italic;
+
+    color: white;
+    /*text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;*/
+    position: absolute;
+    bottom: 0;
+    font-size: 15px;
+    padding-bottom: 0px;
+    /*padding-left: 80px;*/
+    font-size: 30px;
+    top: 50px;
+}
+
+
+#location {
+    text-align: center;
+    color: black;
+    width: 200px;
+    background-color: #d6af8e;
+    border: 2px solid black;
+
+
+
+}
+
+#logo {
+    /*width: 50px;*/
+    height: 50px;
+    float: left;
+
+    position: absolute;
+    top: 10px;
+    left: 0px;
+
+    /*display: inline-block;*/
+    width: 70px;
+    height: 70px;
+}
+
+
+#nav {
+    float: right;
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    background-color: white;
+    font-size: 25px;
+    height: 110px;
+    width: 150px;
+    border: 1px solid black;
+}
+
+
+ul {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.navlink1,
+.navlink2 {
+    margin-right: auto;
+    margin-left: auto;
+    width: 600px;
+    border-width: 150px;
+    font-style: italic;
+    padding-top: 0;
+    padding-right: 40px;
+    height: 10px;
+    width: 200px;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    border-width: 1px;
+    width: 100px;
+    height: 110px;
+}
+
+a:hover {
+    background-color: blue;
+}
+
+#content {
+    margin-top: 150px
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Book recommendations">
+    <meta name="author" content="KM">
+    <title>Book's Cafe-Form</title>
+    <link rel="stylesheet" href="../Stylesheets/main.css">
+    <link rel="icon" type="image/png" href="../favicon_io/favicon.ico" />
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        .checked {
+            color: blue;
+        }
+
+        #form {
+            background-color: azure;
+            border: 4px solid black;
+        }
+
+    </style>
+</head>
+
+<body>
+
+
+
+    <header id="header">
+        <div>
+            <img src="../Images/logo.png" id="logo" alt="Book's Cafe's Logo(3 brown books with a mug of steaming coffee on top)">
+            <h1 id="sitename">Book's Cafe</h1>
+            <h1 id="location">Form</h1>
+        </div>
+        <div id="headright">
+            <nav id="nav">
+                <ul>
+                    <li> <a href="index.html" class="navlink1">Home</a></li>
+                    <li>
+                        <a href="about.html" class="navlink2">About</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="content">
+
+
+        <div id="survey">
+
+            <form  action="/form-tester.html" method="get" id="form">
+                <h2 style="color:blue; text-align: center;">Survey</h2>
+                <p> When was the last time you read a book?</p>
+                <div>
+                    <label>Last Time:</label>
+                    <input type="date" id="lasttime" name="lasttime">
+                    <br><br>
+                </div>
+
+
+
+                <p>What format was the book?</p>
+                <div>
+                    <label>Choose a book format:</label>
+                    <select name="formats" id="formats">
+                        <option value="Ebook">Ebook</option>
+                        <option value="AudioBook">Audio Book</option>
+                        <option value="PhysicalBook">Physical Book </option>
+                        <option value="both">Physical book/ebook & audiobook at the same time</option>
+                    </select>
+                    <br><br>
+
+                </div>
+
+                <p>Where did you get the book from?</p>
+                <div>
+                    <label>Choose where you got the book from?:</label>
+                    <select name="from">
+                        <option value="borrow">Borrowed if from the local library</option>
+                        <option value="lent">A friend lent it to you</option>
+                        <option value="online">Brought it online </option>
+                        <option value="store"> Brought it from a store</option>
+                        <option value="free"> Free book</option>
+                    </select>
+                    <br><br>
+                </div>
+
+                <p>How did you find out about the book?</p>
+                <div>
+                    <label>Chose:</label>
+                    <select name="online">
+                        <option value="online">Online Recommendation</option>
+                        <option value="browse">Browsing books in a store or library</option>
+                        <option value="PhysicalBook">Physical Book </option>
+                        <option value="Recommended">Recommended by a friend or librarian</option>
+                    </select>
+                    <br><br>
+                </div>
+
+
+                <p>Did you like the book?</p>
+                <div>
+                    <input type="radio" name="yes" value="text">
+                    <label>Yes</label>
+
+                    <input type="radio" name="no" value="text">
+                    <label>No</label>
+
+                </div>
+
+
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+
+        </div>
+
+
+
+
+    </main>
+    <footer id="footer">
+        <p id="copyright"> &#169;2021 Book's Cafe</p>
+    </footer>
